@@ -3,11 +3,13 @@ import mujoco.viewer
 import numpy as np
 import matplotlib.pyplot as plt
 import time
-
+from pathlib import Path
 
 # Load model and data
-MODEL_XML = "/home/anastasia/Desktop/Diplwmatikh/MuJoCo/franka_emika_panda/panda1.xml"
-model = mujoco.MjModel.from_xml_path(MODEL_XML)
+HERE = Path(__file__).resolve().parent             # .../rcm_controller/src
+MODEL_XML = HERE.parent / "models" / "panda1.xml"   
+
+model = mujoco.MjModel.from_xml_path(str(MODEL_XML))
 data = mujoco.MjData(model)
 
 # Simulation parameters
