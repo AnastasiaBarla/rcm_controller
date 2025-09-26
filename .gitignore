@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+*.log
+*.mp4
+*.zip
+*.onnx
+*.pth
+.mujoco/
