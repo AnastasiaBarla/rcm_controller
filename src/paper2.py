@@ -164,17 +164,8 @@ D1 = 100.0
 # K2 = np.diag([6500.0, 1000.0, 11000.0])      # secondary EE (3x3)
 # D2 = np.diag([300.0, 90.0, 550.0])
 
-# K2 = np.diag([15875.0, 2440.0, 26875.0])      # secondary EE (3x3)
-# D2 = np.diag([750.0, 225.0, 1345.0])
-
 K2 = np.diag([19845.0, 3050.0, 33595.0])      # secondary EE (3x3)   #best !!
 D2 = np.diag([940.0, 280.0, 1680.0])
-
-# K2 = np.diag([19845.0, 3180.0, 33595.0])      # secondary EE (3x3)   
-# D2 = np.diag([940.0, 295.0, 1680.0])
-
-# K2 = np.diag([29770.0, 4575.0, 50395.0])      # secondary EE (3x3)  no
-# D2 = np.diag([1410.0, 420.0, 2520.0])
 
 # === Logging ===
 t_log, dist_log = [], []
