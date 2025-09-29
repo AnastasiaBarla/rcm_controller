@@ -61,7 +61,6 @@ lam = lam0
 zhat  = d_seg / (np.linalg.norm(d_seg) + 1e-12)   # unit vector along the shaft (P_i -> P_{i+1})
 d_inside = 0.09                                 # 3 cm inside the trocar
 p_center = p_trc + d_inside * zhat
-#print("p_center:", p_center)
 
 
 # orthonormal basis {u,v} in plane ⟂ zhat
